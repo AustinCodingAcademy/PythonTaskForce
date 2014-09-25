@@ -20,3 +20,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.synced_folder "shared_data", "/home/vagrant/shared_data"
 end
 ```
+
+####/etc/hosts entry
+192.168.33.10 aca.local
