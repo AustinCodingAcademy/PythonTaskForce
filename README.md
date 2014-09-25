@@ -22,4 +22,6 @@ end
 ```
 
 ####/etc/hosts entry
+```
 192.168.33.10 aca.local
+```
