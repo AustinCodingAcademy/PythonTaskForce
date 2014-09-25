@@ -21,7 +21,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 end
 ```
 
-####/etc/hosts entry
+####VMs /etc/hosts entry
 ```
 10.10.10.33 aca.local
 ```
