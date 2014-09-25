@@ -1,13 +1,13 @@
 Python Task Force
 ===============
 
-####pyVagrant VM box
+#### pyVagrant VM box
 https://s3.amazonaws.com/austincodingacademy/boxes/pyVagrant.box
 
 ####Amazon AWS CLI Configuration
 http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#config-settings-and-precedence
 
-####VagrantFile
+#### VagrantFile
 ```
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
@@ -21,7 +21,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 end
 ```
 
-####VMs /etc/hosts entry
+#### VMs /etc/hosts entry
 ```
 10.10.10.33 aca.local
+```
+#### MySQL Credentials (Local to VM)
+```
+host: localhost
+username: root
+password: something
+
+$ mysql -u root -p -h localhost
+Enter Password: something
 ```
