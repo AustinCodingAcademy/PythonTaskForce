@@ -8,7 +8,7 @@ https://s3.amazonaws.com/austincodingacademy/boxes/pyVagrant.box
 http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#config-settings-and-precedence
 
 #### VagrantFile
-```
+```ruby
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
@@ -26,7 +26,7 @@ end
 10.10.10.33 aca.local
 ```
 #### MySQL Credentials (Local to VM)
-```
+```bash
 host: localhost
 username: root
 password: something
