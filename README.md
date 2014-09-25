@@ -1,8 +1,6 @@
 PythonTaskForce
 ===============
 
-ACA Python Task Force
-
 ####pyVagrant box
 https://s3.amazonaws.com/austincodingacademy/boxes/pyVagrant.box
 
