@@ -38,14 +38,14 @@ Enter Password: something
 
 #### Vagrant Commands
 Boot up VM
-```
-vagrant up
+```bash
+$ vagrant up
 ```
 SSH into VM
-```
-vagrant ssh
+```bash
+$ vagrant ssh
 ```
 Stop the VM
-```
-vagrant halt
+```bash
+$ vagrant halt
 ```
