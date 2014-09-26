@@ -15,7 +15,7 @@ http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#co
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "http://192.168.0.98/boxes/pyVagrant.box"
+  config.vm.box = "https://s3.amazonaws.com/austincodingacademy/boxes/pyVagrant.box"
   config.vm.network "private_network", ip: "10.10.10.33"
   config.vm.synced_folder "repos", "/home/vagrant/repos"
 end
