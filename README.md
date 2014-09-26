@@ -27,11 +27,11 @@ end
 10.10.10.33 aca.local
 ```
 #### MySQL Credentials (Local to VM)
+* host: localhost
+* username: root
+* password: something
+* database: acadb
 ```bash
-host: localhost
-username: root
-password: something
-
 $ mysql -u root -p -h localhost
 Enter Password: something
 ```
