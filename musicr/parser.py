@@ -19,7 +19,10 @@ class Parser():
         for root, dirs, files in os.walk(self.start_dir):
             for f in files:
                 if f.endswith(self.file_ext):
+		    print "File is an mp3"	
                     results.append(os.path.join(root, f))
+		else:
+		    print "File is not an mp3"
         pprint(results)
 
     def get_results(self, results):
@@ -27,7 +30,7 @@ class Parser():
 
 
 if __name__ == "__main__":
-    start_dir = '/'
+    start_dir = '/tmp'
     file_ext  = 'mp3'
     parse_txt = Parser(start_dir, file_ext)
     parse_txt.parse()
