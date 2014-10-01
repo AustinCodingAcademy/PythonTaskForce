@@ -7,7 +7,7 @@ class Person:
         """
         Can this person afford the order?
         :param float order_total: What is the person's order total?
-        :return: bool
+        :return: boolo sorr
         """
         if self.balance > order_total:
             return True
@@ -50,16 +50,15 @@ class Order:
             print "No soup for you!"
 
 
-items = [
-    {'item_id': 234, 'item_name': 'Keyboard', 'price': 12},
-    {'item_id': 564, 'item_name': 'Mouse', 'price': 4.54},
-    {'item_id': 876, 'item_name': 'Laptop', 'price': 1200.22}]
+if __name__ == "__main__":
+    items = [
+        {'item_id': 234, 'item_name': 'Keyboard', 'price': 12},
+        {'item_id': 564, 'item_name': 'Mouse', 'price': 4.54},
+        {'item_id': 876, 'item_name': 'Laptop', 'price': 1200.22}]
 
-myPerson = Person('Samir', bank_balance=5000.25)
-myOrder = Order(myPerson, items)
-# orderTotal = myOrder.get_order_total()
+    myPerson = Person('Samir', bank_balance=5000.25)
+    myOrder = Order(myPerson, items)
+    # orderTotal = myOrder.get_order_total()
 
-myOrder.place_order()
-
-
-#print "Order Total: %f" % orderTotal
+    myOrder.place_order()
+    #print "Order Total: %f" % orderTotal
