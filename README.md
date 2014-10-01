@@ -49,3 +49,61 @@ Stop the VM
 ```bash
 $ vagrant halt
 ```
+
+### Git commands
+View the status of your staging area
+```
+$ git status
+```
+Add one file to staging area
+```
+$ git add myfile.py.py
+```
+Add multiple files to staging area
+```
+$ git add .
+```
+Commit all staged files
+```
+$ git commit
+```
+Commit all modified unstaged files
+```
+$ git commit -a
+```
+View all remote branches
+```
+$ git branch -r
+```
+Get all remote branches
+```
+$ git pull
+```
+Checkout an existing remote branch
+```
+$ git checkout githubBranch
+```
+Create a new local branch
+```
+$ git checkout -b myNewLocalbranch
+```
+Push a newly created local branch to remote
+```
+$ git push -u origin myNewLocalBranch
+```
+Push to remote when local branch and remote branch exist and have the same name
+```
+$ git push
+```
+Incorporate all changes that are in the remote tracking branch into your local branch
+```
+$ git pull
+```
+View history of all commits
+```
+$ git log
+```
+Reset your working directory to a pristine state (Note this will wipe out any changes you made)
+```
+$ git reset HEAD --hard
+```
