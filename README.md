@@ -1,6 +1,6 @@
 Python Task Force
 ===============
-
+Hi This is Ryan
 #### Pre-install these applications
 * Database Access - MySQL Workbench 6.1 - http://www.mysql.com/products/workbench/
 * Developer Virtualization - VirtualBox - https://www.virtualbox.org/wiki/Downloads
