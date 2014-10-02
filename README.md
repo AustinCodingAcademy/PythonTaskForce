@@ -2,7 +2,9 @@ Python Task Force
 ===============
 
 #### Pre-install these applications
-* Database Access - MySQL Workbench 6.1 - http://www.mysql.com/products/workbench/
+* Database Access
+  * MySQL Workbench 6.1 - http://www.mysql.com/products/workbench/
+  * Sequel Pro (OSX Only) - http://www.sequelpro.com/download
 * Developer Virtualization - VirtualBox - https://www.virtualbox.org/wiki/Downloads
 * Quick VM Setup - Vagrant - https://www.vagrantup.com/downloads.html
 * IDE - PyCharm CE - http://www.jetbrains.com/pycharm/download/
