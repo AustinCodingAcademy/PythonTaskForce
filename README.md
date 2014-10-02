@@ -59,7 +59,7 @@ $ git status
 ```
 Add one file to staging area
 ```bash
-$ git add myfile.py.py
+$ git add myfile.py
 ```
 Add multiple files to staging area
 ```bash
