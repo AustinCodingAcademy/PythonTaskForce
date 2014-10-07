@@ -1,6 +1,7 @@
 __author__ = 'vallivallamsetla'
 import os
-#from pprint import pprint
+from pprint import pprint
+
 
 
 class Musicfinder():
@@ -14,7 +15,7 @@ class Musicfinder():
         for root, directories, list_of_files in os.walk(self.starting_directory):
             for file in list_of_files:
                 if file.endswith(self.file_extension):
-                    self.songs.append(os.path.join(root,file))
+                    self.songs.append(os.path.join(root, file))
 
 
     def getResults(self):
@@ -27,4 +28,4 @@ if __name__ == "__main__":
     # Parse the FS
     my_songs.parse()
 
-    print my_songs.getResults()
+    pprint(my_songs.getResults())
