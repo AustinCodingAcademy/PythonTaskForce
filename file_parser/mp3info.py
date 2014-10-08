@@ -67,8 +67,8 @@ if __name__ == '__main__':
 
         filename = sys.argv[1]
 
-        Mp3Parser = Mp3Info(filename)
-        tagData = Mp3Parser.get_tag_data()
+        info = Mp3Info(filename)
+        tagData = info.get_tag_data()
 
         print tagData
 
