@@ -1,5 +1,5 @@
 """
-#note - This class is #deprecated as of Tue Oct 14 2014
+#note - The classes in this file are #deprecated as of Tue Oct 14 2014
 For a more up-to-date Person / Product / Order interface, see order_person_product_classes.py
 """
 
