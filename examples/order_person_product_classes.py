@@ -18,7 +18,7 @@ Add to the Order class:
 -----------------------
 
 3) Add a function / method called add_product() which takes as
-    input an Order and adds it to the listOfProducts
+    input a Product and adds it to the listOfProducts
 
 """
 
@@ -106,7 +106,7 @@ class Order:
     
     """
     3) Create a function (define a method) called add_product() which takes as
-    input an Order and adds it to the listOfProducts
+    input a Product and adds it to the listOfProducts
     """
 
 
