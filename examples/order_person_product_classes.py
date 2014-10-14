@@ -7,12 +7,12 @@ Add to the Person class:
 ------------------------
 
 1) Add the bank_balance attribute to the Person class
-    (just like we did in the other file oo_person_order_classes.py)
+    (Just like we did in the other file oo_person_order_classes.py)
 
 2) Add a function / method called can_afford() which takes a number called
-    order_total and returns true or false depending on whether the total is
-    greater than the Person's  bank_balance
-    (just like we did in the other file oo_person_order_classes.py)
+    order_total and returns true if the Person's bank_balance is high enough
+    for him/her to place the order without going into the red.
+    (Just like we did in the other file oo_person_order_classes.py)
 
 Add to the Order class:
 -----------------------
@@ -45,9 +45,9 @@ class Person:
     
     """
     2) Add a function / method called can_afford() which takes a number called
-        order_total and returns true or false depending on whether the total is
-        greater than the Person's  bank_balance
-        (just like we did in the other file oo_person_order_classes.py)
+        order_total and returns true if the Person's bank_balance is high enough
+        for him/her to place the order without going into the red.
+        (Just like we did in the other file oo_person_order_classes.py)
     """
 
 
