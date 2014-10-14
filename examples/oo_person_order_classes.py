@@ -1,5 +1,3 @@
-# test: can I edit this file?
-
 class Person:
     def __init__(self, name, bank_balance):
         self.name = name
