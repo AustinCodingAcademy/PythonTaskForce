@@ -1,6 +1,30 @@
-# Plain ol data object
+"""
+
+Warmup Tue Oct 14 2014: We will be adding some extra functionality to the
+Person / Product / Order classes we created at the end of class on Thursday. 
+
+Add to the Person class:
+------------------------
+
+1) Add the bank_balance attribute to the Person class
+    (just like we did in the other file oo_person_order_classes.py)
+
+2) Add a function / method called can_afford() which takes a number called
+    order_total and returns true or false depending on whether the total is
+    greater than the Person's  bank_balance
+    (just like we did in the other file oo_person_order_classes.py)
+
+Add to the Order class:
+-----------------------
+
+3) Add a function / method called add_product() which takes as
+    input an Order and adds it to the listOfProducts
+
+"""
+
 class Person:
-    def __init__(self, name, age, street_address):
+    
+    def __init__(self, name, age, street_address): # 1) add the bank_balance attribute
         """
         Create a new person
         :param string name: Person's full name
@@ -18,6 +42,14 @@ class Person:
         :return: string
         """
         return self.street_address
+    
+    """
+    2) Add a function / method called can_afford() which takes a number called
+        order_total and returns true or false depending on whether the total is
+        greater than the Person's  bank_balance
+        (just like we did in the other file oo_person_order_classes.py)
+    """
+
 
 
 class Product:
@@ -71,6 +103,11 @@ class Order:
 
         print "\t\t\tDiscount Amount: %.2f" % order_discount
         print "\t\t\tTotal Amount: %.2f" % order_total
+    
+    """
+    3) Create a function (define a method) called add_product() which takes as
+    input an Order and adds it to the listOfProducts
+    """
 
 
 if __name__ == "__main__":
