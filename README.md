@@ -1,6 +1,8 @@
 Python Task Force
 =================
 
+:octocat:
+
 #### Pre-install these applications
 * Database Access
   * MySQL Workbench 6.1 - http://www.mysql.com/products/workbench/
