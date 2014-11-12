@@ -1,5 +1,7 @@
 Python Task Force
-===============
+=================
+
+:octocat:
 
 #### Pre-install these applications
 * Database Access
