@@ -4,7 +4,7 @@ import os
 This class will parse through directories on the file system and find matching files
 """
 
-
+xrange
 class Parser():
     def __init__(self, start_dir, extension='mp3'):
         self.start_dir = start_dir
